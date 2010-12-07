@@ -1,6 +1,8 @@
 .DS_Store
 target
 target/**/*
+test/test-banner-codenarc/target
+test/test-banner-codenarc/target/**/*
 web-app/WEB-INF/classes
 web-app/WEB-INF/classes/**/*
 web-app/js/user-extensions.js
@@ -13,6 +15,6 @@ web-app/WEB-INF/tld/**/*
 *.iml
 .idea
 .idea/**/*
-grails-banner-codenarc-0.1.0.**
+grails-banner-codenarc-**
 lib/banner-codenarc.jar
 pom.xml.sha1

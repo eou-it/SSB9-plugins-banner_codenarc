@@ -3,7 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e7830d37-4aed-4f33-ab21-b32c36bc576c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/banner-codenarc.iws" afterPath="$PROJECT_DIR$/banner-codenarc.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/DataSource.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/DataSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/HibernateGrailsPlugin.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/HibernateGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/test-classes/integration/application.properties" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/test-classes/integration/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/TomcatGrailsPlugin.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/TomcatGrailsPlugin.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/application.properties" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/CodenarcGrailsPlugin.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/CodenarcGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/resources.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/resources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/BootStrap.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/BootStrap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/test-classes/unit/org/codenarc/test/AbstractTestCase.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/test-classes/unit/org/codenarc/test/AbstractTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/UrlMappings.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/UrlMappings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/test-reports/TESTS-TestSuites.xml" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/test-reports/TESTS-TestSuites.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/test-classes/unit/org/codenarc/rule/AbstractRuleTestCase.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/test-classes/unit/org/codenarc/rule/AbstractRuleTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/banner-codenarc.iml" afterPath="$PROJECT_DIR$/banner-codenarc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/BannerCodenarcGrailsPlugin.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/BannerCodenarcGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BannerCodenarcGrailsPlugin.groovy" afterPath="$PROJECT_DIR$/BannerCodenarcGrailsPlugin.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/test-classes/unit/com/sungardhe/banner/codenarc/rule/ResourceCodeExistsTest.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/test-classes/unit/com/sungardhe/banner/codenarc/rule/ResourceCodeExistsTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/Config.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/application.properties" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/banner-codenarc-grailsPlugins.iml" afterPath="$PROJECT_DIR$/banner-codenarc-grailsPlugins.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.xml" afterPath="$PROJECT_DIR$/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/BuildConfig.class" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/target/classes/BuildConfig.class" />
     </list>
     <ignored path="$USER_HOME_GRIFFON$/" />
     <ignored path="$USER_HOME_GRAILS$/" />
@@ -72,15 +93,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codenarc.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/codenarc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="55" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="banner.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rulesets/banner.groovy">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,10 +150,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test-banner-codenarc/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="27" selection-start="268" selection-end="268" vertical-scroll-proportion="0.1308615">
+            <state line="6" column="27" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BannerCodenarcGrailsPlugin.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BannerCodenarcGrailsPlugin.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="22" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="14" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.28789532">
               <folding />
             </state>
           </provider>
@@ -161,14 +191,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/conf/BannerRuleset.groovy" />
         <option value="$PROJECT_DIR$/scripts/UpgradeCodenarc.groovy" />
         <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/test/unit/com/sungardhe/banner/codenarc/rule/ResourceCodeExistsTest.groovy" />
         <option value="$PROJECT_DIR$/src/groovy/com/sungardhe/banner/codenarc/rule/ResourceCodeExists.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/rulesets/banner.groovy" />
-        <option value="$PROJECT_DIR$/BannerCodenarcGrailsPlugin.groovy" />
         <option value="$PROJECT_DIR$/scripts/_Events.groovy" />
         <option value="$PROJECT_DIR$/test/test-banner-codenarc/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
@@ -177,6 +205,8 @@
         <option value="$PROJECT_DIR$/test/test-banner-codenarc/scripts/UpgradeCodenarc.groovy" />
         <option value="$PROJECT_DIR$/scripts/Loader.groovy" />
         <option value="$PROJECT_DIR$/test/test-banner-codenarc/application.properties" />
+        <option value="$PROJECT_DIR$/BannerCodenarcGrailsPlugin.groovy" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -792,11 +822,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/_Upgrade.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/_Uninstall.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -829,13 +854,6 @@
     <entry file="file://$PROJECT_DIR$/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BannerCodenarcGrailsPlugin.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="620" selection-end="620" vertical-scroll-proportion="0.24332978">
           <folding />
         </state>
       </provider>
@@ -894,7 +912,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test-banner-codenarc/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="268" selection-end="268" vertical-scroll-proportion="0.1308615">
+        <state line="6" column="27" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BannerCodenarcGrailsPlugin.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="14" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.28789532">
           <folding />
         </state>
       </provider>
@@ -907,7 +939,7 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="-604337451" />
-              <option name="pluginDependenciesCrc" value="-584510506" />
+              <option name="pluginDependenciesCrc" value="-1397065284" />
               <option name="properties">
                 <map>
                   <entry key="grails.project.class.dir" value="target/classes" />

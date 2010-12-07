@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="MAL1000018.local" id="0" name="ResourceCodeExistsTest" package="com.sungardhe.banner.codenarc.rule" tests="4" time="0.138" timestamp="2010-12-07T16:42:25">
+  <testsuite errors="0" failures="0" hostname="MAL1000018.local" id="0" name="ResourceCodeExistsTest" package="com.sungardhe.banner.codenarc.rule" tests="4" time="0.151" timestamp="2010-12-07T18:35:49">
       <properties />
 
-      <testcase classname="com.sungardhe.banner.codenarc.rule.ResourceCodeExistsTest" name="testSuccessScenario" time="0.095" />
+      <testcase classname="com.sungardhe.banner.codenarc.rule.ResourceCodeExistsTest" name="testSuccessScenario" time="0.099" />
 
-      <testcase classname="com.sungardhe.banner.codenarc.rule.ResourceCodeExistsTest" name="testFailedScenario" time="0.015" />
+      <testcase classname="com.sungardhe.banner.codenarc.rule.ResourceCodeExistsTest" name="testFailedScenario" time="0.018" />
 
       <testcase classname="com.sungardhe.banner.codenarc.rule.ResourceCodeExistsTest" name="testApplyTo_CompilerError" time="0.0010" />
 
-      <testcase classname="com.sungardhe.banner.codenarc.rule.ResourceCodeExistsTest" name="testThatUnrelatedCodeHasNoViolations" time="0.0070" />
+      <testcase classname="com.sungardhe.banner.codenarc.rule.ResourceCodeExistsTest" name="testThatUnrelatedCodeHasNoViolations" time="0.0080" />
 
       <system-out><![CDATA[--Output from testSuccessScenario--
 -------------------------[ ResourceCodeExistsTest.null ]------------------------
