@@ -25,5 +25,9 @@ grails.project.dependency.resolution = {
         mavenRepo "http://repository.codehaus.org"
 
     }
+
+    plugins {
+        provided 'org.grails:codenarc:0.8'
+    }
 }
 
