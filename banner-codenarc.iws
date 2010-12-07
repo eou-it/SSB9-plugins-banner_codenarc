@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="e7830d37-4aed-4f33-ab21-b32c36bc576c" name="Default" comment="" />
+    <list default="true" readonly="true" id="e7830d37-4aed-4f33-ab21-b32c36bc576c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/banner-codenarc.iws" afterPath="$PROJECT_DIR$/banner-codenarc.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-banner-codenarc/application.properties" afterPath="$PROJECT_DIR$/test/test-banner-codenarc/application.properties" />
+    </list>
     <ignored path="$USER_HOME_GRIFFON$/" />
     <ignored path="$USER_HOME_GRAILS$/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -105,13 +108,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages.properties" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test-banner-codenarc/grails-app/i18n/messages.properties">
           <provider editor-type-id="ResourceBundle">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="23" selection-start="2193" selection-end="2194" vertical-scroll-proportion="0.40223464">
+            <state line="30" column="23" selection-start="2193" selection-end="2194" vertical-scroll-proportion="-16.363636">
               <folding />
             </state>
           </provider>
@@ -135,10 +138,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.properties" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test-banner-codenarc/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+            <state line="10" column="27" selection-start="268" selection-end="268" vertical-scroll-proportion="0.1308615">
               <folding />
             </state>
           </provider>
@@ -168,12 +171,12 @@
         <option value="$PROJECT_DIR$/BannerCodenarcGrailsPlugin.groovy" />
         <option value="$PROJECT_DIR$/scripts/_Events.groovy" />
         <option value="$PROJECT_DIR$/test/test-banner-codenarc/grails-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/test/test-banner-codenarc/application.properties" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/test/test-banner-codenarc/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/test/test-banner-codenarc/grails-app/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/test/test-banner-codenarc/scripts/UpgradeCodenarc.groovy" />
         <option value="$PROJECT_DIR$/scripts/Loader.groovy" />
+        <option value="$PROJECT_DIR$/test/test-banner-codenarc/application.properties" />
       </list>
     </option>
   </component>
@@ -837,13 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-banner-codenarc/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="5" selection-start="1009" selection-end="1009" vertical-scroll-proportion="-13.0">
@@ -891,7 +887,14 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="23" selection-start="2193" selection-end="2194" vertical-scroll-proportion="0.40223464">
+        <state line="30" column="23" selection-start="2193" selection-end="2194" vertical-scroll-proportion="-16.363636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-banner-codenarc/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="27" selection-start="268" selection-end="268" vertical-scroll-proportion="0.1308615">
           <folding />
         </state>
       </provider>

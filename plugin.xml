@@ -1,4 +1,4 @@
-<plugin name='banner-codenarc' version='0.1' grailsVersion='1.3.5 &gt; *'>
+<plugin name='banner-codenarc' version='0.1.0' grailsVersion='1.3.5 &gt; *'>
   <author>SunGard Higher Education</author>
   <title>Plugin Banner Codenarc</title>
   <description>\
@@ -7,7 +7,6 @@ A plugin that provides Banner specific coding rules.
   <documentation>http://grails.org/plugin/banner-codenarc</documentation>
   <resources>
     <resource>BuildConfig</resource>
-    <resource>Config</resource>
     <resource>DataSource</resource>
     <resource>UrlMappings</resource>
   </resources>
