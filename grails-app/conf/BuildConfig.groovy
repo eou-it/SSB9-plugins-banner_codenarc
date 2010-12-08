@@ -23,11 +23,9 @@ grails.project.dependency.resolution = {
         mavenCentral()
         mavenRepo "http://repository.jboss.org/maven2/"
         mavenRepo "http://repository.codehaus.org"
-
     }
 
     plugins {
         compile 'org.grails:codenarc:0.8'
     }
 }
-
