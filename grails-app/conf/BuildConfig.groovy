@@ -12,9 +12,6 @@ grails.project.dependency.resolution = {
     log "error" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
 
     repositories {
-        mavenRepo "http://m038083.sungardhe.com:8081/nexus/content/repositories/releases/"
-        mavenRepo "http://m038083.sungardhe.com:8081/nexus/content/repositories/snapshots/"
-        mavenRepo "http://m038083.sungardhe.com:8081/nexus/content/repositories/thirdparty/"
 
         grailsPlugins()
         grailsHome()
