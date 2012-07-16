@@ -12,7 +12,7 @@ eventCompileEnd = {  kind ->
 
         ant.jar(destfile: 'lib/banner-codenarc.jar') {
             fileset(dir: 'target/classes', erroronmissingdir:false) {
-                include( name: 'com/sungardhe/banner/codenarc/rule/**' )
+                include( name: 'net/hedtech/banner/codenarc/rule/**' )
             }
             fileset(dir: '.') {
                 include(name: 'rulesets/**')
