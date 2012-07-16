@@ -1,4 +1,4 @@
-import com.sungardhe.banner.codenarc.rule.ResourceCodeExists
+import net.hedtech.banner.codenarc.rule.ResourceCodeExists
 
 ruleset {
 
