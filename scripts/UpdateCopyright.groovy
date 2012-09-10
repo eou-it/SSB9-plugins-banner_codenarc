@@ -30,10 +30,11 @@ target(main: "Converts copyright information.") {
     else
         osPluginDir = "/plugins"
 
+   println System.properties['os.name']
    println "OS Plugin directory $osPluginDir"
    println "Processing directory $basedir"
     targetDirectory.eachFileRecurse() { file ->
-        if ((file.name.endsWith( ".groovy" ) ||file.name.endsWith( ".java" )||file.name.endsWith( ".gsp" ) )  && (file.name != "UpdateCopyright.groovy") && !(file.path =~ osPluginDir)) {
+        if ((file.name.endsWith( ".groovy" ) ||file.name.endsWith( ".java" )||file.name.endsWith( ".gsp" ) )  && (file.name != "UpdateCopyright.groovy") && !(file.path.contains(osPluginDir))) {
             if (file.text.indexOf("/******************************************") >= 0 )  {
                 tempStr = file.text.substring(file.text.indexOf("/******************************************"),file.text.indexOf("******************************************/") + 43)
                 if ((tempStr.indexOf("SunGard Higher Education. All Rights Reserved") > 0) && (tempStr.length() < 2000))
@@ -48,7 +49,7 @@ target(main: "Converts copyright information.") {
     }
 
     targetDirectory.eachFileRecurse() { file ->
-         if (file.name.endsWith( ".zul" )   && (file.name != "UpdateCopyright.groovy") && !(file.path =~ osPluginDir)) {
+         if (file.name.endsWith( ".zul" )   && (file.name != "UpdateCopyright.groovy") && !(file.path.contains(osPluginDir))) {
              if (file.text.indexOf("<!--***************************************") >= 0 )  {
                  tempStr = file.text.substring(file.text.indexOf("<!--***************************************"),file.text.indexOf("****************************************-->") + 43)
                  if ((tempStr.indexOf("SunGard Higher Education. All Rights Reserved") > 0) && (tempStr.length() < 2000))
@@ -58,7 +59,7 @@ target(main: "Converts copyright information.") {
      }
 
     targetDirectory.eachFileRecurse() { file ->
-         if (file.name.endsWith( ".zul" )   && (file.name != "UpdateCopyright.groovy") && !(file.path =~ osPluginDir)) {
+         if (file.name.endsWith( ".zul" )   && (file.name != "UpdateCopyright.groovy") && !(file.path.contains(osPluginDir))) {
              if (file.text.indexOf("<!-- ***************************************") >= 0 )  {
                  tempStr = file.text.substring(file.text.indexOf("<!-- **************************************"),file.text.indexOf("*************************************** -->") + 43)
                  if ((tempStr.indexOf("SunGard Higher Education. All Rights Reserved") > 0) && (tempStr.length() < 2000))
@@ -70,7 +71,7 @@ target(main: "Converts copyright information.") {
 
     targetDirectory.eachFileRecurse() { file ->
          if ((file.name.endsWith( ".groovy" ) ||file.name.endsWith( ".java" ) ||file.name.endsWith( ".zul" ) ||file.name.endsWith( ".gsp" ) )
-                && (file.name != "UpdateCopyright.groovy") && !(file.path =~ osPluginDir)) {
+                && (file.name != "UpdateCopyright.groovy") && !(file.path.contains(osPluginDir))) {
          if (file.text.find ("SunGard Higher Education. All Rights Reserved") )
             println "Update Manually $file.name "
         }
@@ -79,7 +80,7 @@ target(main: "Converts copyright information.") {
 
     targetDirectory.eachFileRecurse() { file ->
          if ((file.name.endsWith( ".groovy" ) ||file.name.endsWith( ".java" ) ||file.name.endsWith( ".zul" ) ||file.name.endsWith( ".gsp" ) )
-                && (file.name != "UpdateCopyright.groovy") && !(file.path =~ osPluginDir)) {
+                && (file.name != "UpdateCopyright.groovy") && !(file.path.contains(osPluginDir))) {
          if (!file.text.find ("SunGard Higher Education. All Rights Reserved") && !file.text.find ("Copyright 2009-2012 Ellucian Company L.P. and its affiliates.") )
             println "No Copyrights in $file.name "
         }
