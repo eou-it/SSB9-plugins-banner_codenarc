@@ -10,13 +10,12 @@ import java.util.regex.Pattern
 
 
 /**
- * Grails target for converting all *.sql in ddl and subdirectories to a format that is supported in Linux.
- * Usage:  'grails convert-ddl'        converts all sql in ddl and its subdirectories to a linux format.
+ * Grails target for updating copyright information
+ *
  **/
 
 target(main: "Converts copyright information.") {
 
-    // pass a directory or use the current directory
     def folder = "$basedir"
     def ddlDirectory = new File(folder)
     def targetDirectory = new File( "$basedir" )
@@ -30,9 +29,10 @@ target(main: "Converts copyright information.") {
     else
         osPluginDir = "/plugins"
 
-   println System.properties['os.name']
-   println "OS Plugin directory $osPluginDir"
-   println "Processing directory $basedir"
+    println System.properties['os.name']
+    println "OS Plugin directory $osPluginDir"
+    println "Processing directory $basedir"
+
     targetDirectory.eachFileRecurse() { file ->
         if ((file.name.endsWith( ".groovy" ) ||file.name.endsWith( ".java" )||file.name.endsWith( ".gsp" ) )  && (file.name != "UpdateCopyright.groovy") && !(file.path.contains(osPluginDir))) {
             if (file.text.indexOf("/******************************************") >= 0 )  {
