@@ -1,3 +1,6 @@
+/*******************************************************************************
+Copyright 2009-2012 Ellucian Company L.P. and its affiliates.
+*******************************************************************************/
 /**
  * Copies the generated persistence.xml file from the projectWorkDir to the target directory
  * so that it may be found on the classpath.

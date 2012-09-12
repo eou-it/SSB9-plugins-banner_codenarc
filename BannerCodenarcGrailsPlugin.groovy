@@ -1,3 +1,6 @@
+/*******************************************************************************
+Copyright 2009-2012 Ellucian Company L.P. and its affiliates.
+*******************************************************************************/
 class BannerCodenarcGrailsPlugin {
     // the plugin version
     def version = "2.2.0"
