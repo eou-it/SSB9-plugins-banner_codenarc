@@ -108,7 +108,6 @@ target(main: "Converts copyright information.") {
 
         targetDirectory.eachFileRecurse() { file ->
             if ((file.name.endsWith( ".groovy" ) ||file.name.endsWith( ".java" )||file.name.endsWith( ".gsp" ) )) {
-                println file.name
                 if (file.text.indexOf("/******************************************") >= 0 )  {
                     tempStr = file.text.substring(file.text.indexOf("/******************************************"),file.text.indexOf("******************************************/") + 43)
                     if ((tempStr.indexOf("SunGard Higher Education. All Rights Reserved") > 0) && (tempStr.length() < 2000))
