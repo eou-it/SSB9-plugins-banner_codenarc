@@ -27,9 +27,6 @@ target(main: "Converts copyright information.") {
 
 
     println System.properties['os.name']
-    println "OS Plugin directory $osPluginDir"
-
-
     if (!args) {
 
         if (System.properties['os.name'].toLowerCase().contains('windows'))
