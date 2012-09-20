@@ -20,7 +20,7 @@ target(main: "Converts copyright information.") {
 
     def targetDirectory
 
-    def replaceStr = "/*******************************************************************************\nCopyright 2009-2012 Ellucian Company L.P. and its affiliates.\n*******************************************************************************/ "
+    def replaceStr = "/* *****************************************************************************\nCopyright 2009-2012 Ellucian Company L.P. and its affiliates.\n*******************************************************************************/ "
     def replaceStrZul = "<!--*****************************************************************************\nCopyright 2009-2012 Ellucian Company L.P. and its affiliates.\n*********************************************************************************-->"
     def tempStr
     def osPluginDir
