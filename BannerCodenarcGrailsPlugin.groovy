@@ -5,9 +5,9 @@ class BannerCodenarcGrailsPlugin {
     // the plugin version
     def version = "2.2.0"
     // the version or versions of Grails the plugin is designed for
-    def grailsVersion = "1.3.5 > *"
+    def grailsVersion = "2.2.1 > *"
     // the other plugins this plugin depends on
-    def dependsOn = [codenarc:'0.8']
+    def dependsOn = [codenarc:'0.18.1']
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
         "grails-app/views/error.gsp"

@@ -28,6 +28,6 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
-        compile 'org.grails:codenarc:0.8'
+        compile 'org.grails.plugins:codenarc:0.18.1'
     }
 }
