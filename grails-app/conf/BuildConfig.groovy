@@ -7,7 +7,7 @@ grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
-grails.project.dependency.resolver = "ivy" // or maven
+grails.project.dependency.resolver = "maven" // or maven
 
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
@@ -21,24 +21,18 @@ grails.project.dependency.resolution = {
     repositories {
         if (System.properties['PROXY_SERVER_NAME']) {
             mavenRepo "${System.properties['PROXY_SERVER_NAME']}"
-        } else {
-            grailsPlugins()
-            grailsHome()
-            grailsCentral()
-            mavenCentral()
-            mavenRepo "http://repository.jboss.org/maven2/"
-            mavenRepo "http://repository.codehaus.org"
         }
+        grailsCentral()
+        mavenCentral()
+        mavenRepo "http://repository.jboss.org/maven2/"
+
     }
 
     plugins {
         compile 'org.grails.plugins:codenarc:0.21'
-        runtime  ":hibernate:3.6.10.10"
+        runtime  ":hibernate:3.6.10.19"
         compile ":tomcat:7.0.52.1"
-        test ':code-coverage:2.0.3-2',
-        {
-            excludes 'xercesImpl'
-        }
+        test ':code-coverage:2.0.3-3'
     }
 
 }
