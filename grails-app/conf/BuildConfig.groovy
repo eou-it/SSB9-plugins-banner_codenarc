@@ -31,7 +31,7 @@ grails.project.dependency.resolution = {
     plugins {
         compile 'org.grails.plugins:codenarc:0.21'
         compile  ":hibernate:3.6.10.19"
-        compile ":tomcat:7.0.52.1"
+        compile ":tomcat:8.0.22"
         test ':code-coverage:2.0.3-3'
     }
 
