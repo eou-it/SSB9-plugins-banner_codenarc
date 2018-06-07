@@ -18,11 +18,11 @@ apply plugin:"org.grails.grails-plugin"
 apply plugin:"org.grails.grails-plugin-publish"
 apply plugin:"asset-pipeline"
 apply plugin:"org.grails.grails-gsp"
-apply from: "${rootProject.projectDir}/gradle/codenarc.gradle"
+apply from: "${project.projectDir}/gradle/codenarc.gradle"
 
 codenarc {
     toolVersion = '0.27.0'
-    configFile = file("${rootProject.projectDir}/config/codenarc/rules.groovy")
+    configFile = file("${project.projectDir}/config/codenarc/rules.groovy")
     reportFormat = 'html'
     ignoreFailures = true
 }
