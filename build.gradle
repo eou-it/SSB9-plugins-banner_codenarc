@@ -9,7 +9,7 @@ buildscript {
     }
 }
 
-version "9.26.2"
+version "9.30"
 group "banner.codenarc"
 
 apply plugin:"eclipse"
