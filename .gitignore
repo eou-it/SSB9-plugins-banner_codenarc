@@ -9,7 +9,10 @@ web-app/WEB-INF/tld/**/*
 *.iws
 *.ipr
 *.iml
-.settings/org.eclipse.jdt.core.prefs
+.settings/*
+.gradle/*
+.build/*
+build/**/*
 SendFailures.txt
 *.iml
 .idea
